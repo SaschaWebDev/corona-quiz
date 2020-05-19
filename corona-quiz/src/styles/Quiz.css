@@ -242,9 +242,9 @@
 
 @media screen and (max-height: 860px) {
   .upper-container {
-    max-height: 22rem !important;
-    min-height: 22rem !important;
-    height: 22rem !important;
+    max-height: 17rem !important;
+    min-height: 17rem !important;
+    height: 17rem !important;
     margin-top: 2.8rem;
   }
 
