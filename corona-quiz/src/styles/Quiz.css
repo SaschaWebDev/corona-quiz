@@ -218,9 +218,10 @@
 
 @media screen and (max-height: 1080px) {
   .upper-container {
-    max-height: 18rem;
+    max-height: 10rem;
+    min-height: 10rem;
     background-color: green;
-    height: 18rem;
+    height: 10rem;
     margin-top: 3rem;
   }
 
