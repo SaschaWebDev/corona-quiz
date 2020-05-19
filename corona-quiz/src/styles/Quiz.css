@@ -233,6 +233,8 @@
     height: 5rem;
   }
   
-
+  .answer-text {
+    font-size: 1.2rem;
+  }
 
 }
