@@ -24,11 +24,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 1,
         percentage: 0,
-        question:
-          'Deine Oma hat Geburtstag und du möchtest ihr Blumen schenken',
-        answerOne: 'Auslandimport günstiger Blumen',
-        answerTwo: 'Blumenkauf im lokalen Blumenladen',
-        answerThree: 'Blumen selber pflücken',
+        question: 'Wann war die gemessene Angst in der Zeit von Corona in Deutschland am höchsten?',
+        answerOne: 'Am Donnerstag den 20.02.2020',
+        answerTwo: 'Am Sonntag den 15.03.2020',
+        answerThree: 'Am Samstag den 28.03.2020',
       });
       this.props.history.push('/');
     }
@@ -37,11 +36,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 1,
         percentage: 20,
-        question:
-          'Deine Oma hat Geburtstag und du möchtest ihr Blumen schenken',
-        answerOne: 'Auslandimport günstiger Blumen',
-        answerTwo: 'Blumenkauf im lokalen Blumenladen',
-        answerThree: 'Blumen selber pflücken',
+        question: 'Wann war die gemessene Angst in der Zeit von Corona in Deutschland am höchsten?',
+        answerOne: 'Am Donnerstag den 20.02.2020',
+        answerTwo: 'Am Sonntag den 15.03.2020',
+        answerThree: 'Am Samstag den 28.03.2020',
       });
     }
 
@@ -49,11 +47,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 2,
         percentage: 40,
-        question:
-          'Für dein Lieblings- rezept benötigst du noch etwas frische Milch',
-        answerOne: 'Frischmilchkauf beim regionalen Bauern',
-        answerTwo: 'Kauf von H-Milch im Supermarkt',
-        answerThree: 'Kauf von veganer Mandelmilch',
+        question: 'Mit welchem Ereignis lässt sich die gemessene Angst in der Bevölkerung mit der Angst vor COVID-19 vergleichen?',
+        answerOne: 'Anschläge in Paris vom 13.11.2015',
+        answerTwo: 'Am Sonntag den 15.03.2020',
+        answerThree: 'Flüchtlingskrise 2015/2016',
       });
     }
 
@@ -61,10 +58,11 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 3,
         percentage: 60,
-        question: 'Du planst für deine nächste Reise einen Trip nach Ungarn',
-        answerOne: 'Suche nach günstigen Flug bei Billig-Airline',
-        answerTwo: 'Mieten von bezahlbaren Auto bei Sixt',
-        answerThree: 'Erwerb eines Bahnticket bei DB',
+        question:
+        'Wie ist das Risiko eines schweren COVID-19 Krankheitsverlaufes bei Allergikern mit Heuschnupfen einzuschätzen?',
+        answerOne: 'Höheres Risiko',
+        answerTwo: 'Unverändertes Risiko',
+        answerThree: 'Niedrigeres Risiko',
       });
     }
 
@@ -72,10 +70,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 4,
         percentage: 80,
-        question: 'Du planst für deine nächste Reise einen Trip nach Ungarn',
-        answerOne: 'Suche nach günstigen Flug bei Billig-Airline',
-        answerTwo: 'Mieten von bezahlbaren Auto bei Sixt',
-        answerThree: 'Erwerb eines Bahnticket bei DB',
+        question: 'In welchem deutschen Bundesland war das Risiko an COVID-19 zu versterben am höchsten?',
+        answerOne: 'Niedersachsen',
+        answerTwo: 'Bayern',
+        answerThree: 'Berlin',
       });
     }
   };
@@ -86,11 +84,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 2,
         percentage: 40,
-        question:
-          'Für dein Lieblings- rezept benötigst du noch etwas frische Milch',
-        answerOne: 'Frischmilchkauf beim regionalen Bauern',
-        answerTwo: 'Kauf von H-Milch im Supermarkt',
-        answerThree: 'Kauf von veganer Mandelmilch',
+        question: 'Wie ist das Risiko eines schweren COVID-19 Krankheitsverlaufes bei Allergikern mit Heuschnupfen einzuschätzen?',
+        answerOne: 'Höheres Risiko',
+        answerTwo: 'Unverändertes Risiko',
+        answerThree: 'Niedrigeres Risiko',
       });
       localStorage.setItem('question1', answerOption);
     }
@@ -99,10 +96,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 3,
         percentage: 60,
-        question: 'Du planst für deine nächste Reise einen Trip nach Ungarn',
-        answerOne: 'Suche nach günstigen Flug bei Billig-Airline',
-        answerTwo: 'Mieten von bezahlbaren Auto bei Sixt',
-        answerThree: 'Erwerb eines Bahnticket bei DB',
+        question: 'Wie ist das Risiko eines schweren COVID-19 Krankheitsverlaufes bei Allergikern mit Heuschnupfen einzuschätzen?',
+        answerOne: 'Höheres Risiko',
+        answerTwo: 'Unverändertes Risiko',
+        answerThree: 'Niedrigeres Risiko',
       });
       localStorage.setItem('question2', answerOption);
     }
@@ -111,10 +108,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 4,
         percentage: 80,
-        question: 'Du versuchst deine Strom- rechnung zu reduzieren',
-        answerOne: 'Vertrag mit günstigen Atomstromanbieter',
-        answerTwo: 'Solaranlagen am Dach anbringen',
-        answerThree: 'Vertrag mit Stromanbieter erneuerbarer Energien',
+        question: 'In welchem deutschen Bundesland war das Risiko an COVID-19 zu versterben am höchsten?',
+        answerOne: 'Niedersachsen',
+        answerTwo: 'Bayern',
+        answerThree: 'Berlin',
       });
       localStorage.setItem('question3', answerOption);
     }
@@ -123,10 +120,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 5,
         percentage: 100,
-        question: 'Du versuchst deine Strom- rechnung zu reduzieren',
-        answerOne: 'Vertrag mit günstigen Atomstromanbieter',
-        answerTwo: 'Solaranlagen am Dach anbringen',
-        answerThree: 'Vertrag mit Stromanbieter erneuerbarer Energien',
+        question: 'Wie viele Todesfälle durch COVID-19 ereigneten sich in Deutschland bis zum 19.05.2020?',
+        answerOne: '8176 Todesfälle',
+        answerTwo: '32169 Todesfälle',
+        answerThree: '9108 Todesfälle',
       });
       localStorage.setItem('question4', answerOption);
     }
