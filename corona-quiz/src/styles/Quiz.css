@@ -249,7 +249,7 @@
   }
 
   .question-text {
-    margin-top: 6%;
+    margin-top: 3%;
   }
 
   .answer {
@@ -259,5 +259,9 @@
   
   .answer-text {
     font-size: 1.2rem;
+  }
+
+  .upper-info-container {
+    margin-top: 0.7rem;
   }
 }
