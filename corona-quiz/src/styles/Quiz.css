@@ -216,14 +216,15 @@
 
 
 
-@media screen and (max-height: 1056px) {
+@media screen and (max-height: 1080px) {
   .upper-container {
-    max-height: 20rem;
+    max-height: 18rem;
+    height: 18rem;
+    margin-top: 3rem;
   }
 
   .answer {
-    max-height: 4rem;
-    height: 4rem;
+
   }
 
 
