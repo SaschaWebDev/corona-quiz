@@ -29,7 +29,7 @@ class Quiz extends React.Component {
         answerTwo: 'Am Sonntag den 15.03.2020',
         answerThree: 'Am Samstag den 28.03.2020',
       });
-      this.props.history.push('/');
+      window.location.href = 'https://info.corona.saschamajewsky.de'; 
     }
 
     if (this.state.questionCount === 2) {
