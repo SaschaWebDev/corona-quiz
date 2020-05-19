@@ -218,18 +218,21 @@
 
 @media screen and (max-height: 1080px) {
   .upper-container {
-    max-height: 10rem;
-    min-height: 10rem;
-    background-color: green;
-    height: 10rem;
+    max-height: 26rem !important;
+    min-height: 26rem !important;
+    height: 26rem !important;
     margin-top: 3rem;
   }
 
-  .answer {
-
+  .question-text {
+    margin-top: 7%;
   }
 
-
+  .answer {
+    max-height: 5rem;
+    height: 5rem;
+  }
+  
 
 
 }
