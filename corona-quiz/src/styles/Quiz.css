@@ -238,3 +238,26 @@
   }
 
 }
+
+
+@media screen and (max-height: 860px) {
+  .upper-container {
+    max-height: 22rem !important;
+    min-height: 22rem !important;
+    height: 22rem !important;
+    margin-top: 2.8rem;
+  }
+
+  .question-text {
+    margin-top: 6%;
+  }
+
+  .answer {
+    max-height: 4.5rem;
+    height: 4.5rem;
+  }
+  
+  .answer-text {
+    font-size: 1.2rem;
+  }
+}
