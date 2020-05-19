@@ -47,9 +47,9 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 2,
         percentage: 40,
-        question: 'Mit welchem Ereignis lässt sich die gemessene Angst in der Bevölkerung mit der Angst vor COVID-19 vergleichen?',
+        question: 'Mit welchem Ereignis lässt sich die Angst vor COVID-19 in der Bevölkerung vergleichen?',
         answerOne: 'Anschläge in Paris vom 13.11.2015',
-        answerTwo: 'Am Sonntag den 15.03.2020',
+        answerTwo: 'Wahlsieg US-Präsident Trump 2016',
         answerThree: 'Flüchtlingskrise 2015/2016',
       });
     }
@@ -84,10 +84,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 2,
         percentage: 40,
-        question: 'Wie ist das Risiko eines schweren COVID-19 Krankheitsverlaufes bei Allergikern mit Heuschnupfen einzuschätzen?',
-        answerOne: 'Höheres Risiko',
-        answerTwo: 'Unverändertes Risiko',
-        answerThree: 'Niedrigeres Risiko',
+        question: 'Mit welchem Ereignis lässt sich die Angst vor COVID-19 in der Bevölkerung vergleichen?',
+        answerOne: 'Anschläge in Paris vom 13.11.2015',
+        answerTwo: 'Wahlsieg US-Präsident Trump 2016',
+        answerThree: 'Flüchtlingskrise 2015/2016',
       });
       localStorage.setItem('question1', answerOption);
     }
