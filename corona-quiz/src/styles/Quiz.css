@@ -212,3 +212,21 @@
   font-family: 'Roboto', cursive;
   color: rgb(240, 233, 233);
 }
+
+
+
+
+@media screen and (max-height: 1056px) {
+  .upper-container {
+    max-height: 20rem;
+  }
+
+  .answer {
+    max-height: 4rem;
+    height: 4rem;
+  }
+
+
+
+
+}
