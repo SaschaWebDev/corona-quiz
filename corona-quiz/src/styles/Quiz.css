@@ -265,3 +265,9 @@
     margin-top: 0.7rem;
   }
 }
+
+@media screen and (max-width: 860px) {
+  .quiz-container {
+    transform: scale(0.5);
+  }
+}

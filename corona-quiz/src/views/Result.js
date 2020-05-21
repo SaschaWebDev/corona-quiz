@@ -59,7 +59,7 @@ class Result extends React.Component {
                 <span class="right"><span className="bold">Richtige Antwort:</span> Sonntag der 15.03.2020</span>
               </div>
             }
-            <div className="explanation fade">Am 15.03.2020 verkündete die Tagesschau die Schließung der deutschen Außengrenzen und verursachte Unsicherheit für Reisende und Familien. Neben den meisten Google Suchanfragen nach „Angst“ hatten auch symptomatische Suchbegriffe wie „Husten“ an diesem Tag seinen Höhepunkt.</div>
+            <div className="explanation fade">Am 15.03.2020 verkündete die Tagesschau die Schließung der deutschen Außengrenzen und verursachte Unsicherheit für Reisende und Familien. Neben den meisten Google Suchanfragen nach „Angst“, hatten auch symptomatische Suchbegriffe, wie „Husten“, an diesem Tag ihren Höhepunkt.</div>
         </div>
 
         <div class="result-text fade space-2">
@@ -73,7 +73,7 @@ class Result extends React.Component {
               <span class="right"><span className="bold">Richtige Antwort:</span> Anschläge Paris 13.11.2015</span>
             </div>
           }
-            <div className="explanation fade">Vergleicht man die Suche der Deutschen nach dem Schlagwort „Angst“ über einen längeren Zeitraum stellt man fest, dass nur selten die Angst in der Bevölkerung so hoch war. Ähnliche Ergebnisse gab es während den Terroranschlägen in Paris am 13.11.2015 bei dem neben dem Bataclan-Theater mehrere Orte des öffentlichen Lebens gleichzeitig angegriffen worden sind.</div>
+            <div className="explanation fade">Vergleicht man die Suche der Deutschen nach dem Schlagwort „Angst“ über einen längeren Zeitraum, stellt man fest, dass nur selten die Angst in der Bevölkerung so hoch war. Ähnliche Ergebnisse gab es während den Terroranschlägen in Paris am 13.11.2015, bei denen neben dem Bataclan-Theater mehrere Orte des öffentlichen Lebens gleichzeitig angegriffen worden sind.</div>
         </div>
 
         <div class="result-text fade space-2">
@@ -87,7 +87,7 @@ class Result extends React.Component {
               <span class="right"><span className="bold">Richtige Antwort:</span> Unverändertes Risiko</span>
             </div>
           }
-            <div className="explanation fade">Allergikern mit Heuschnupfen zeigen bei Pollen bestimmter Bäume eine starke Reaktion des Immunsystems und interpretiert harmlose Stoffe als gefährlich ein. Für die Corona-Krise gibt es jedoch keine Auswirkung, da das Immunsystem keine Überreaktion zeigt und somit keinen schwereren Krankheitsverlauf erzeugt.</div>
+            <div className="explanation fade">Allergiker mit Heuschnupfen zeigen bei Pollen bestimmter Bäume eine starke Reaktion des Immunsystems, weches harmlose Stoffe als gefährlich interpretiert. Für SARS-CoV-2 gibt es jedoch keine Auswirkung, da das Immunsystem keine Überreaktion zeigt und somit keinen schwereren Krankheitsverlauf erzeugt.</div>
         </div>
 
         <div class="result-text fade space-2">
