@@ -120,10 +120,10 @@ class Quiz extends React.Component {
       this.setState({
         questionCount: 5,
         percentage: 100,
-        question: 'Wie viele Todesfälle durch COVID-19 ereigneten sich in Deutschland bis zum 19.05.2020?',
-        answerOne: '8281 Todesfälle',
-        answerTwo: '32330 Todesfälle',
-        answerThree: '9186 Todesfälle',
+        question: 'Wie viele Todesfälle durch COVID-19 ereigneten sich in Deutschland bis zum 21.05.2020?',
+        answerOne: '8.281 Todesfälle',
+        answerTwo: '32.330 Todesfälle',
+        answerThree: '9.186 Todesfälle',
       });
       localStorage.setItem('question4', answerOption);
     }

@@ -31,7 +31,20 @@ class Result extends React.Component {
           <div className="question-number space">Frage #4</div>
           <div className="question-text-2">In welchem deutschen Bundesland war das Risiko an COVID-19 zu versterben am höchsten?</div>
           <div className="question-number space">Frage #5</div>
-          <div className="question-text-2 last">Wie viele Todesfälle durch COVID-19 ereigneten sich in Deutschland bis zum 19.05.2020?</div>
+          <div className="question-text-2 last">Wie viele Todesfälle durch COVID-19 ereigneten sich in Deutschland bis zum 21.05.2020?
+          </div>
+          <div className="cta">
+            <div className="cta-text question-number">Erfahren Sie mehr mit<br/>  unseren Infografiken</div>
+          <div className="cta-button">
+            <div class="button-container">
+              <div class="rounded-md shadow">
+                <a href="https://corona.saschamajewsky.de" class="button-cta  md:text-lg md:px-10">
+                  Mehr Infos
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
         <div className="right-container">
           <div className="heading">Ihre Antworten</div>
@@ -88,21 +101,21 @@ class Result extends React.Component {
               <span class="right"><span className="bold">Richtige Antwort:</span> Bayern</span>
             </div>
           }
-            <div className="explanation fade">Die meisten Todesfälle im Zusammenhang mit COVID-19 gab es in Bayern. Hier gab es 2407 Todesfälle (18,41 Todesfälle pro 100 Tsd. Einwohner). In Berlin gab es insgesamt 186 Todesfälle (5,1 Todesfälle pro 100 Tsd. Einwohner), wohingegen Mecklenburg- Vorpommern 20 Todesfälle (1,24 Todesfälle pro 100 Tsd. Einwohner) zu verzeichnen hatte.</div>
+            <div className="explanation fade">Die meisten Todesfälle im Zusammenhang mit COVID-19 gab es in Bayern. Hier gab es 2.407 Todesfälle (18,41 Todesfälle pro 100 Tsd. Einwohner). In Berlin gab es insgesamt 186 Todesfälle (5,1 Todesfälle pro 100 Tsd. Einwohner), wohingegen Mecklenburg- Vorpommern 20 Todesfälle (1,24 Todesfälle pro 100 Tsd. Einwohner) zu verzeichnen hatte.</div>
         </div>
 
-        <div class="result-text fade space-2">
-          {localStorage.getItem('question4') === 'b' ? 
+        <div class="result-text fade space-3">
+          {localStorage.getItem('question5') === 'a' ? 
             <div className='result-title-sub-1 noselect fade'>
-              <span class="right"><span className="bold">Ihre Antwort:</span> Bayern</span><br/> 
-              <span class="right"><span className="bold">Richtige Antwort:</span> Bayern</span>
+              <span class="right"><span className="bold">Ihre Antwort:</span> 8.281 Todesfälle</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> 8.281 Todesfälle</span>
             </div> :
             <div className='result-title-sub-1 noselect fade'>
-              <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question4') === 'a' ? "Mecklenburg-Vorpommern" :  "Berlin"}</span><br/> 
-              <span class="right"><span className="bold">Richtige Antwort:</span> Bayern</span>
+              <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question1') === 'b' ? "32.330 Todesfälle" :  "9.186 Todesfälle"}</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> 8.281 Todesfälle</span>
             </div>
           }
-            <div className="explanation fade">In Deutschland ereigneten sich bis zum 21.05.2020 8281 Todesfälle. In Belgien waren es zum selben Zeitpunkt 9186 Todesfälle und in Italien 32330 Todesfälle.</div>
+            <div className="explanation fade">In Deutschland ereigneten sich bis zum 21.05.2020 8.281 Todesfälle. In Belgien waren es zum selben Zeitpunkt 9.186 Todesfälle und in Italien 32.330 Todesfälle.</div>
         </div>
 
         
