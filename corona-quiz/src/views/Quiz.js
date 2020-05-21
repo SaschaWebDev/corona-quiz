@@ -71,7 +71,7 @@ class Quiz extends React.Component {
         questionCount: 4,
         percentage: 80,
         question: 'In welchem deutschen Bundesland war das Risiko an COVID-19 zu versterben am höchsten?',
-        answerOne: 'Niedersachsen',
+        answerOne: 'Mecklenburg-Vorpommern',
         answerTwo: 'Bayern',
         answerThree: 'Berlin',
       });
@@ -109,7 +109,7 @@ class Quiz extends React.Component {
         questionCount: 4,
         percentage: 80,
         question: 'In welchem deutschen Bundesland war das Risiko an COVID-19 zu versterben am höchsten?',
-        answerOne: 'Niedersachsen',
+        answerOne: 'Mecklenburg-Vorpommern',
         answerTwo: 'Bayern',
         answerThree: 'Berlin',
       });

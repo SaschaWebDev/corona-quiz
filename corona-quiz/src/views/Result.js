@@ -97,7 +97,7 @@ class Result extends React.Component {
           <span class="right">Richtige Antwort: Bayern</span>
         </div> :
         <div className='result-title-sub noselect fade'>
-          <span class="wrong">Ihre Antwort: {localStorage.getItem('question4') === 'a' ? "Niedersachsen" :  "Berlin"}</span><br/> 
+          <span class="wrong">Ihre Antwort: {localStorage.getItem('question4') === 'a' ? "Mecklenburg-Vorpommern" :  "Berlin"}</span><br/> 
           <span class="right">Richtige Antwort: Bayern</span>
         </div>}
         <div className='result-title-sub noselect fade'>
