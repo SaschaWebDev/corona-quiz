@@ -212,15 +212,6 @@ sup {
   font-size: 1.2rem;
   z-index: 1;
 }
-
-.wrong {
-  color: red;
-}
-
-.right {
-  color: green;
-}
-
 .question {
   color: black;
   padding: 0.7rem;
@@ -352,4 +343,100 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+.container {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.left-container {
+  background-color: #d8961b;
+  width:50vw;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 13%;
+}
+
+.right-container {
+  width:50vw;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.question-number {
+  color: #6d4a0abe;
+  font-size: 1.5vw;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.question-text-2 {
+  color: white;
+  font-size: 1.8vw;
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-top: 3%;
+}
+
+.space {
+  margin-top: 30%;
+}
+
+.last {
+  margin-bottom: 10%;
+}
+
+.heading {
+  margin-left: 10%;
+  margin-top: 5%;
+  color: white;
+  font-size: 1.8vw;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.result-text {
+  margin-left: 10%;
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.result-title-sub-1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.wrong {
+  color: red;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 1.2vw;
+}
+
+.right {
+  color: green;
+  margin-left: 5%;
+  font-size: 1.2vw;
+}
+
+.explanation {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.2vw;
+  padding-bottom: 7%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.space-2 {
+  margin-top: 12%;
 }

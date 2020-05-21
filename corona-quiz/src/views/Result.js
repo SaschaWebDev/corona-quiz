@@ -18,8 +18,96 @@ class Result extends React.Component {
 
   render() {
     return (
-      <div className='result-container noselect'>
-        <div className='result-title noselect fade'>Ergebnisse</div>
+      <div className='container noselect'>
+        <div className="left-container">
+          <div className="heading">Das Quiz</div>
+          {/* This should be a component later */}
+          <div className="question-number">Frage #1</div>
+          <div className="question-text-2">Wann war die gemessene Angst in der Zeit von Corona in Deutschland am höchsten?</div>
+          <div className="question-number space">Frage #2</div>
+          <div className="question-text-2">Mit welchem Ereignis lässt sich die Angst vor COVID-19 in der Bevölkerung vergleichen?</div>
+          <div className="question-number space">Frage #3</div>
+          <div className="question-text-2">Wie ist das Risiko eines schweren COVID-19 Krankheitsverlaufes bei Allergikern mit Heuschnupfen einzuschätzen?</div>
+          <div className="question-number space">Frage #4</div>
+          <div className="question-text-2">In welchem deutschen Bundesland war das Risiko an COVID-19 zu versterben am höchsten?</div>
+          <div className="question-number space">Frage #5</div>
+          <div className="question-text-2 last">Wie viele Todesfälle durch COVID-19 ereigneten sich in Deutschland bis zum 19.05.2020?</div>
+        </div>
+        <div className="right-container">
+          <div className="heading">Ihre Antworten</div>
+          <div class="result-text fade">
+            {localStorage.getItem('question1') === 'b' ?
+              <div className='result-title-sub-1 noselect fade'>
+                <span class="right"><span className="bold">Ihre Antwort:</span> Sonntag 15.03.2020</span><br/>
+                <span class="right"><span className="bold">Richtige Antwort:</span> Sonntag der 15.03.2020</span>
+              </div> :
+              <div className='result-title-sub-1 noselect fade'>
+                <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question1') === 'a' ? "Donnerstag 20.02.2020" :  "Samstag 28.03.2020"}</span><br/> 
+                <span class="right"><span className="bold">Richtige Antwort:</span> Sonntag der 15.03.2020</span>
+              </div>
+            }
+            <div className="explanation fade">Am 15.03.2020 verkündete die Tagesschau die Schließung der deutschen Außengrenzen und verursachte Unsicherheit für Reisende und Familien. Neben den meisten Google Suchanfragen nach „Angst“ hatten auch symptomatische Suchbegriffe wie „Husten“ an diesem Tag seinen Höhepunkt.</div>
+        </div>
+
+        <div class="result-text fade space-2">
+          {localStorage.getItem('question2') === 'a' ? 
+            <div className='result-title-sub-1 noselect fade'>
+              <span class="right"><span className="bold">Ihre Antwort:</span> Anschläge Paris 13.11.2015</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> Anschläge Paris 13.11.2015</span>
+            </div> :
+            <div className='result-title-sub-1 noselect fade'>
+              <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question2') === 'b' ? "Wahlsieg Trump 2016" :  "Flüchtlingskrise 2015/2016"}</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> Anschläge Paris 13.11.2015</span>
+            </div>
+          }
+            <div className="explanation fade">Vergleicht man die Suche der Deutschen nach dem Schlagwort „Angst“ über einen längeren Zeitraum stellt man fest, dass nur selten die Angst in der Bevölkerung so hoch war. Ähnliche Ergebnisse gab es während den Terroranschlägen in Paris am 13.11.2015 bei dem neben dem Bataclan-Theater mehrere Orte des öffentlichen Lebens gleichzeitig angegriffen worden sind.</div>
+        </div>
+
+        <div class="result-text fade space-2">
+          {localStorage.getItem('question3') === 'b' ? 
+            <div className='result-title-sub-1 noselect fade'>
+              <span class="right"><span className="bold">Ihre Antwort:</span> Unverändertes Risiko</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> Unverändertes Risiko</span>
+            </div> :
+            <div className='result-title-sub-1 noselect fade'>
+              <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question3') === 'a' ? "Höheres Risiko" :  "Niedrigeres Risiko"}</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> Unverändertes Risiko</span>
+            </div>
+          }
+            <div className="explanation fade">Allergikern mit Heuschnupfen zeigen bei Pollen bestimmter Bäume eine starke Reaktion des Immunsystems und interpretiert harmlose Stoffe als gefährlich ein. Für die Corona-Krise gibt es jedoch keine Auswirkung, da das Immunsystem keine Überreaktion zeigt und somit keinen schwereren Krankheitsverlauf erzeugt.</div>
+        </div>
+
+        <div class="result-text fade space-2">
+          {localStorage.getItem('question4') === 'b' ? 
+            <div className='result-title-sub-1 noselect fade'>
+              <span class="right"><span className="bold">Ihre Antwort:</span> Bayern</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> Bayern</span>
+            </div> :
+            <div className='result-title-sub-1 noselect fade'>
+              <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question4') === 'a' ? "Mecklenburg-Vorpommern" :  "Berlin"}</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> Bayern</span>
+            </div>
+          }
+            <div className="explanation fade">Die meisten Todesfälle im Zusammenhang mit COVID-19 gab es in Bayern. Hier gab es 2407 Todesfälle (18,41 Todesfälle pro 100 Tsd. Einwohner). In Berlin gab es insgesamt 186 Todesfälle (5,1 Todesfälle pro 100 Tsd. Einwohner), wohingegen Mecklenburg- Vorpommern 20 Todesfälle (1,24 Todesfälle pro 100 Tsd. Einwohner) zu verzeichnen hatte.</div>
+        </div>
+
+        <div class="result-text fade space-2">
+          {localStorage.getItem('question4') === 'b' ? 
+            <div className='result-title-sub-1 noselect fade'>
+              <span class="right"><span className="bold">Ihre Antwort:</span> Bayern</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> Bayern</span>
+            </div> :
+            <div className='result-title-sub-1 noselect fade'>
+              <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question4') === 'a' ? "Mecklenburg-Vorpommern" :  "Berlin"}</span><br/> 
+              <span class="right"><span className="bold">Richtige Antwort:</span> Bayern</span>
+            </div>
+          }
+            <div className="explanation fade">In Deutschland ereigneten sich bis zum 21.05.2020 8281 Todesfälle. In Belgien waren es zum selben Zeitpunkt 9186 Todesfälle und in Italien 32330 Todesfälle.</div>
+        </div>
+
+        
+        </div>
+        {/* <div className='result-title noselect fade'>Ergebnisse</div>
        
 
         <div class="card-container">
@@ -116,7 +204,7 @@ class Result extends React.Component {
           className='result-cta-button noselect fade-slow'
           onClick={() => this.resetQuiz()}>
           Versuch es nochmal!
-        </button>
+        </button> */}
       </div>
     );
   }
