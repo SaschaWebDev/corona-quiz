@@ -101,7 +101,7 @@ class Result extends React.Component {
               <span class="right"><span className="bold">Richtige Antwort:</span> Bayern</span>
             </div>
           }
-            <div className="explanation fade">Die meisten Todesfälle im Zusammenhang mit COVID-19 gab es in Bayern. Hier gab es 2.407 Todesfälle (18,41 Todesfälle pro 100 Tsd. Einwohner). In Berlin gab es insgesamt 186 Todesfälle (5,1 Todesfälle pro 100 Tsd. Einwohner), wohingegen Mecklenburg- Vorpommern 20 Todesfälle (1,24 Todesfälle pro 100 Tsd. Einwohner) zu verzeichnen hatte.</div>
+            <div className="explanation fade">Die meisten Todesfälle im Zusammenhang mit COVID-19 gab es in Bayern. Hier gab es 2.407 Todesfälle, welches auf 100Tsd. Einwohner 18,41 Todesfällen entspricht. In Berlin gab es insgesamt 186 Todesfälle und somit 5,1 Tode auf 100 Tsd. Einwohner. Mecklenburg-Vorpommern hingegen verzeichnete lediglich 20 Todesfälle und somit 1,24 Todesfälle / 100 Tsd. Einwohner.</div>
         </div>
 
         <div class="result-text fade space-3">
