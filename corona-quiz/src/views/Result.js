@@ -111,7 +111,7 @@ class Result extends React.Component {
               <span class="right"><span className="bold">Richtige Antwort:</span> 8.281 Todesfälle</span>
             </div> :
             <div className='result-title-sub-1 noselect fade'>
-              <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question1') === 'b' ? "32.330 Todesfälle" :  "9.186 Todesfälle"}</span><br/> 
+              <span class="wrong"><span className="bold">Ihre Antwort:</span> {localStorage.getItem('question5') === 'b' ? "32.330 Todesfälle" :  "9.186 Todesfälle"}</span><br/> 
               <span class="right"><span className="bold">Richtige Antwort:</span> 8.281 Todesfälle</span>
             </div>
           }
