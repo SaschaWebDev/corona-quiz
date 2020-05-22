@@ -22,7 +22,7 @@ class Result extends React.Component {
         <div className="left-container">
           <div className="heading">Das Quiz</div>
           {/* This should be a component later */}
-          <div className="question-number">Frage #1</div>
+          <div className="question-number first">Frage #1</div>
           <div className="question-text-2">Wann war die gemessene Angst in der Zeit von Corona in Deutschland am höchsten?</div>
           <div className="question-number space">Frage #2</div>
           <div className="question-text-2">Mit welchem Ereignis lässt sich die Angst vor COVID-19 in der Bevölkerung vergleichen?</div>
